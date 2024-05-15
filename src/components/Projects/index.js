@@ -32,12 +32,12 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="Python" onClick={() => setToggle('Python')}>Python</ToggleButton>
           }
-          <Divider />
+          {/* <Divider />
           {toggle === 'machine learning' ?
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          }
+          } */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
